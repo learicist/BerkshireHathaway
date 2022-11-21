@@ -4,13 +4,73 @@
 }
   
 *:focus {
-    outline:none;
+    outline: none;
+    text-decoration: none;
 }
 
-h1 {
-    color: blue;
+#body {
+    background-color: beige; 
 }
 
-#eighthnote {
-    width: 15%;
+.hidden {
+    display: none;
+}
+
+#menu {
+    float: right;
+}
+
+.list {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.navbar {
+    border: 1px solid blue;
+    background-color: green;
+    margin-bottom: 150px;
+}
+
+.navbar-brand {
+    border: 1px solid blue;
+}
+
+#title {
+    border: 1px solid blue;
+    background-color: white;
+    color: green;
+    border-radius: 15%;
+    text-decoration: none;
+}
+
+.menuBars {
+    border: 2px solid white;
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    border-radius: 5px;
+}
+
+#hamburger {
+    float: right;
+    border: 1px solid white;
+    display: inline;
+
+}
+
+#mainBody {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#pics {
+    border: 1px solid black;
+    display: inline;
+    justify-content: center;
+}
+
+.pics {
+    width: 45%;
 }
