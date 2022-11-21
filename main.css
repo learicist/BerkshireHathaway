@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+*:focus {
+    outline:none;
+}
+
+h1 {
+    color: blue;
+}
+
+#eighthnote {
+    width: 15%;
+}
