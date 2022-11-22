@@ -31,12 +31,17 @@
 	</head>
 
 	<body>
-		<div class="container-fluid" id="body">
-			<div class="row bg-green navbar">
+		<div class="container-fluid body">
+			<div class="row navbar">
 				<div class="col-sm-12" id="navbar">
 					<!-- Navbar Brand -->
 					<!-- Insert logo when received -->
-					<a class="navbarLinks" href="#" id="title">Berkshire Hathway Project</a>
+					<a class="navbarLinks" href="#" id="title">
+						<img 
+							id="titleLogo"
+							alt="brandLogo"
+							src="https://res.cloudinary.com/learicist/image/upload/v1669136122/BerkshireProject/logo1.png"/>
+					</a>
 					<!-- Collapse Button -->
 					<div class="hidden" id="menuIcon">
 						<div class="menuBars"></div>
@@ -62,35 +67,24 @@
 					</button> -->
 							
 					<!-- Collapsible Content -->
-					<div id="menu" class="">
-						<ul class="list">
-							<li class="links">
-								<a class="" href="#">Home</a>
-							</li>
-							<li class="links">
-								<a class="" href="#Mission">Mission</a>
-							</li>
-							<li class="links">
-								<a class="" href="#Contact">Contact</a>
-							</li>
-						</ul>
+					<div id="menu" class="list">
+						<a class="links" href="#">Home</a>
+						<a class="links" href="#Mission">Mission</a>
+						<a class="links" href="#Contact">Contact</a>	
 					</div>
-				</nav>
-			</div>
-		</div>
+				</div>
+			</div> <!-- row navbar -->
 
 		
-
-		<div class="container-fluid">
 			<div class="row" id="mainBody">
-				<div class="col-sm-8">
+				<div class="col-sm-8" id="pics">
 					<h1>Hello World</h1>
-					<div id="pics">
+					<div>
 						<img class="pics" src="https://res.cloudinary.com/learicist/image/upload/v1669061764/BerkshireProject/DrumPic.jpg"/>
 						<img class="pics" src="https://res.cloudinary.com/learicist/image/upload/v1669061759/BerkshireProject/Pic1.jpg"/>
 					</div>
 				</div>
-			</div>
+			</div> <!-- row mainBody-->
 		</div>
 		
 	</body>
