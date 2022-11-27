@@ -25,6 +25,7 @@
     justify-content: center;
     margin: 10px 0;
     border: 1px solid white;
+    padding: 5px;
 }
 
 .links {
@@ -32,9 +33,10 @@
     color: rgb(17,71,61);
     border: 1px dashed white;
     border-radius: 5px;
-    padding: 3px;
+    padding: 2px;
     margin: 0 10px;
     font-weight: 500;
+    font-size: 1.4em;
 }
 
 .navbar {
@@ -50,9 +52,10 @@
     background-color: rgb(235,164,3);
     /* color: green;
     border: 1px solid blue; */
-    border-radius: 5%;
+    border-radius: 5px;
     text-decoration: none;
     width: 10%;
+    box-shadow: 4px 5px rgb(0, 0, 0, 0.2);
 }
 
 .menuBars {
@@ -70,7 +73,7 @@
     display: inline;
 }
 
-#mainBody {
+#topRow {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -78,12 +81,13 @@
     background-color: rgb(235,164,3);
 }
 
-#pics {
+.picsDivs {
     border: 1px solid black;
     display: inline;
     justify-content: center;
-    margin-top: 200px;
-    margin-bottom: 150px;
+    margin: 100px 0;
+    /* margin-top: 200px;
+    margin-bottom: 150px; */
 }
 
 .pics {
