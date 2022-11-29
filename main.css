@@ -8,9 +8,27 @@
     text-decoration: none;
 }
 
-.hidden {
-    display: none;
+@media screen and (max-width:1000px) {
+    #menu {
+        display: none;
+    }
+    #menuIcon {
+        display: block;
+    }
 }
+
+@media screen and (min-width: 1001px) {
+    #menu {
+        display: inline;
+    }
+    #menuIcon {
+        display: none;
+    }
+}
+
+/* .hidden {
+    display: none;
+} */
 
 #menu {
     float: right;
@@ -28,7 +46,7 @@
     padding: 5px;
 }
 
-.links {
+.links, .links:hover {
     background-color: rgb(235,164,3);
     color: rgb(17,71,61);
     border: 1px dashed white;
@@ -37,6 +55,7 @@
     margin: 0 10px;
     font-weight: 500;
     font-size: 1.4em;
+    text-decoration: none;
 }
 
 .navbar {
@@ -61,7 +80,7 @@
 .menuBars {
     border: 2px solid white;
     width: 35px;
-    height: 5px;
+    height: 4px;
     background-color: white;
     margin: 6px 0;
     border-radius: 5px;
