@@ -52,47 +52,47 @@ $(document).ready(function () {
     setInterval(function () {
         let curr = images1[index1];
         index1 = (maxIndex == index1) ? 0 : ++index1;
-        $('#pics1').fadeOut(350, function () {
+        $('#pics1').fadeOut(450, function () {
             $(this).attr("src", curr);
             $(this).fadeIn(350);
             //console.log(curr);
         });
         //console.log(images1[curr]);
-    }, 4000);
+    }, 8000);
 
     //PIC2 ROTATION
     setInterval(function () {
         let curr = images2[index2];
         index2 = (maxIndex == index2) ? 0 : ++index2;
-        $('#pics2').fadeOut(350, function () {
+        $('#pics2').fadeOut(450, function () {
             $(this).attr("src", curr);
             $(this).fadeIn(350);
             //console.log(curr);
         });
         //console.log(images1[curr]);
-    }, 4000);
+    }, 12000);
 
     //PIC3 ROTATION
     setInterval(function () {
         let curr = images3[index3];
         index3 = (maxIndex == index3) ? 0 : ++index3;
-        $('#pics3').fadeOut(350, function () {
+        $('#pics3').fadeOut(450, function () {
             $(this).attr("src", curr);
             $(this).fadeIn(350);
             //console.log(curr);
         });
         //console.log(images1[curr]);
-    }, 4000);
+    }, 10000);
 
     //PIC4 ROTATION
     setInterval(function () {
         let curr = images4[index4];
         index4 = (maxIndex == index4) ? 0 : ++index4;
-        $('#pics4').fadeOut(350, function () {
+        $('#pics4').fadeOut(450, function () {
             $(this).attr("src", curr);
             $(this).fadeIn(350);
             //console.log(curr);
         });
         //console.log(images1[curr]);
-    }, 4000);
+    }, 14000);
 });

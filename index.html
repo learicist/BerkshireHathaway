@@ -6,6 +6,7 @@
 
 <html>
 	<head>
+		<title>The Berkshire Hathaway Project</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="main.css" type="text/css"/>
@@ -27,7 +28,13 @@
 		</script>
 		<!--Fonts-->
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Spirax|Courgette|Open+Sans:600" rel="stylesheet">
-		<title>The Berkshire Hathaway Project</title>
+		<link 
+			rel="stylesheet" 
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+			integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+			crossorigin="anonymous" 
+			referrerpolicy="no-referrer"/>
+		
 	</head>
 
 	<body>
@@ -134,12 +141,6 @@
 "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
 "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam metus nibh, condimentum et fringilla eu, scelerisque vitae dolor. Duis gravida dolor in ligula feugiat, sed ultrices velit interdum. Curabitur cursus viverra tristique. Aliquam odio libero, volutpat eget pharetra quis, vehicula et velit. Ut urna nunc, semper ac sagittis ut, tristique eget lectus. Ut sagittis consequat ligula. In vestibulum sit amet mauris quis accumsan. Integer sed porta tortor. Donec auctor odio in volutpat porttitor. Fusce pharetra feugiat neque id consequat. Suspendisse nibh diam, pharetra eget neque a, bibendum tristique lacus. Aliquam accumsan odio in hendrerit hendrerit.
-
-Duis lectus diam, congue vitae suscipit eget, elementum id ex. Fusce suscipit felis ut congue volutpat. Maecenas pellentesque sodales eros ac mattis. Nullam sit amet aliquet tortor, at aliquam lorem. Cras congue diam sit amet purus semper ultricies. Nunc odio velit, euismod suscipit odio vitae, lacinia laoreet elit. Sed vitae hendrerit lectus, a mollis est. Donec ornare turpis sed urna bibendum, vitae rutrum mi molestie. Nunc vehicula eu lorem tincidunt mattis. Maecenas tincidunt fringilla nulla.
-
-Duis maximus mauris eu elit aliquam, et sollicitudin ipsum laoreet. Maecenas sodales, urna sed ullamcorper pulvinar, erat eros scelerisque lorem, rhoncus fringilla lorem dolor congue justo. Cras commodo eleifend magna nec tempus. Sed eget laoreet ex. Nullam scelerisque nisl et blandit convallis. Integer sed placerat odio, vel fermentum lacus. Pellentesque vehicula, arcu in ultricies sollicitudin, lacus diam egestas purus, vel imperdiet lacus dui vel enim.
-
-Nulla porttitor lobortis magna non tempus. Aliquam blandit, nisi vitae efficitur luctus, lorem massa rhoncus tortor, dapibus placerat tortor purus ut metus. Nullam vestibulum, dolor nec cursus posuere, tellus urna pellentesque nulla, id tristique lorem nulla ut tortor. Maecenas in nisl orci. Suspendisse dolor lorem, feugiat eget sapien vitae, lacinia pretium dui. Etiam ultrices vehicula ornare. Suspendisse turpis nibh, congue sed mi a, interdum commodo quam. Sed venenatis lorem enim, sed vulputate sem tristique ac. Duis est nibh, sodales sed risus vel, lacinia dignissim nulla. Aliquam sed congue magna. Vestibulum efficitur eros vel blandit gravida. Vestibulum dignissim rutrum purus, sit amet semper lacus posuere nec. Ut vestibulum porttitor ante, vitae convallis erat tincidunt at. Donec sit amet elit ante. Vestibulum enim mi, porta sed tellus quis, rhoncus iaculis eros.
 					</p>
 
 				</div>
@@ -171,6 +172,50 @@ Nulla porttitor lobortis magna non tempus. Aliquam blandit, nisi vitae efficitur
 
 			<div class="row" id="fourthRow">
 				<!-- CONTACT FORM ON RIGHT, SOCIAL LINKS ON LEFT -->
+				<!-- FB: https://www.facebook.com/theberkshireproject2022
+				Insta: https://www.instagram.com/theberkshireproject2022/ -->
+				<div class="col-sm-4" id="socialDiv">
+					<h4>Find us on Social Media!</h4>
+					<br>
+					<a 
+						class="socialLinks" 
+						id="facebook" 
+						target="_blank" 
+						href="https://www.facebook.com/theberkshireproject2022">
+							<i class="fa-brands fa-facebook fa-2xl"></i>
+					</a>
+					<a 
+						class="socialLinks" 
+						id="instagram" 
+						target="_blank" 
+						href="https://www.instagram.com/theberkshireproject2022/">
+							<i class="fa-brands fa-instagram fa-2xl"></i>
+					</a>
+						
+				</div>
+
+				<div class="col-sm-6" id="contactDiv">
+					<h4>Reach out directly below</h4>
+					<br>
+					<ul id="contactForm">
+						<form >	
+							<li>
+								<input class="formInput" name="name" placeholder="Name" required type="text"/>
+							</li>	
+							<li>
+								<input class="formInput" name="email" placeholder="Email" required type="text"/>
+							</li>
+							<!-- <input class="formInput" name="subject" required type="text"/> -->
+							<li>
+								<textarea class="formInput" placeholder="Message" type="text"></textarea>
+							</li>
+							<li>
+								<input type="submit"/>
+							</li>
+						</form>
+					</ul>
+				</div>
+
 			</div><!--fourthRow-->
 
 
@@ -181,10 +226,17 @@ Nulla porttitor lobortis magna non tempus. Aliquam blandit, nisi vitae efficitur
 	</body>
 
 	<footer>
-		<div id="foot">
-			<p>
-				learicist &copy;2022
-			</p>
+		<div class="container-fluid" id="foot">
+			<div class="row" id="copyTagDiv">
+				<a 
+					id="copyTag"
+					class="col-sm-4"
+					target="_blank" 
+					style="text-decoration: none;"
+					href="https://learicist.github.io/Portfolio/">
+						learicist &copy;2022
+				</a>
+			</div>
 		</div>
 	</footer>
 </html>
