@@ -58,7 +58,7 @@ $(document).ready(function () {
             //console.log(curr);
         });
         //console.log(images1[curr]);
-    }, 8000);
+    }, 9000);
 
     //PIC2 ROTATION
     setInterval(function () {
@@ -82,7 +82,7 @@ $(document).ready(function () {
             //console.log(curr);
         });
         //console.log(images1[curr]);
-    }, 10000);
+    }, 15000);
 
     //PIC4 ROTATION
     setInterval(function () {
@@ -94,5 +94,5 @@ $(document).ready(function () {
             //console.log(curr);
         });
         //console.log(images1[curr]);
-    }, 14000);
+    }, 11000);
 });

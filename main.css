@@ -53,39 +53,53 @@
     display: none;
 } */
 
-#menu {
+/* #menuIcon {
     float: right;
+} */
+
+#navbarNavAltMarkup {
+    border: 1px solid white;
+    display: inline;
+    justify-content: right;
 }
 
-#menuIcon {
-    float: right;
-}
-
-.list {
+/* .list {
     display: inline;
     justify-content: center;
     margin: 10px 0;
-    /* border: 1px solid white;
-    border-radius: 5px; */
     padding: 5px;
+} */
+
+#hamburgerList {
+    border: 1px solid white;
+    margin-right: 50px;
 }
 
-.links, .links:hover {
+.links {
     background-color: rgb(216,181,154);
     color: rgb(17,71,61);
     border: 2px dashed white;
     border-radius: 5px;
-    padding: 3px;
     margin: 0 10px;
     font-weight: 600;
     font-size: 1.4em;
     font-family: "Roboto-Slab", sans-serif;
+    /* text-decoration: none; */
+}
+
+.links:hover {
     text-decoration: none;
 }
 
 .navbar {
     background-color: rgb(17,71,61);
     /* margin-bottom: 150px; */
+    position: fixed;
+    top: 0;
+}
+
+#navMain {
+    background-color: rgb(17,71,61);
 }
 
 .navbar-brand {
@@ -99,43 +113,58 @@
     border: 1px solid blue; */
     border-radius: 5px;
     text-decoration: none;
-    width: 100px;
+    width: 80px;
     box-shadow: 4px 5px rgb(0, 0, 0, 0.2);
 }
 
-.menuBars {
+/* .menuBars {
     border: 2px solid white;
     width: 35px;
     height: 4px;
     background-color: white;
     margin: 6px 0;
     border-radius: 5px;
-}
+} */
 
 #hamburger {
     float: right;
     border: 1px solid white;
-    display: inline;
+    /* display: inline; */
+}
+
+/* BODY BEGINS */
+
+#mainBody {
+    /* margin-top: 120px; 
+    padding-top: 80px; */
+    background: url("https://res.cloudinary.com/learicist/image/upload/v1669929665/BerkshireProject/group5.jpg") no-repeat center center fixed;
+    min-height: 100%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;    
 }
 
 #topRow {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: rgb(216,181,154);
-     /*background-color: rgb(235,164,3);
+    padding-top: 120px;
+    /* background-color: rgb(216,181,154);
+    background-color: rgb(235,164,3);
     border: 1px solid black; */
 }
 
 /* MEDIA QUERY TO HIDE PLACEHOLDER DIV UNDER CERTAIN WIDTH */
 
 .picsDivs {
-    display: inline;
+    display: flex;
     justify-content: center;
+    text-align: center;
     margin: 60px 0;
-    /* background-color: rgb(17,71,61);
+    background-color: rgb(235,164,3);
     border-radius: 15px;
-    padding: 20px 0;
+    /* padding: 20px 0;
     margin-top: 200px;
     border: 1px solid black;
     margin-bottom: 150px; */
@@ -151,8 +180,8 @@
 /* SECOND ROW */
 
 #secondRow {
-    /* background-color: rgb(235,164,3); */
-    background-color: rgb(216,181,154);
+    /* background-color: rgb(235,164,3); 
+    background-color: rgb(216,181,154); */
     text-align: justify;
     display: flex;
     justify-content: center;
@@ -172,8 +201,8 @@
 /* THIRD ROW */
 
 #thirdRow {
-    /* background-color: rgb(235,164,3); */
-    background-color: rgb(216,181,154);
+    /* background-color: rgb(235,164,3); 
+    background-color: rgb(216,181,154); */
     text-align: center;
     display: flex;
     justify-content: center;
