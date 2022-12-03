@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
 }
@@ -6,7 +6,7 @@
 *:focus {
     outline: none;
     text-decoration: none;
-}
+} */
 
 @media screen and (max-width:800px) {
     #menu {
@@ -70,6 +70,17 @@
     padding: 5px;
 } */
 
+#hamButton {
+    border-color: rgb(216,181,154);
+    border-width: 0.15em;
+    color: rgb(17,71,61);
+}
+
+#spanIcon {
+    background-image: url(
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(216,181,154)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
 #hamburgerList {
     border: 1px solid white;
     margin-right: 50px;
@@ -84,11 +95,12 @@
     font-weight: 600;
     font-size: 1.4em;
     font-family: "Roboto-Slab", sans-serif;
-    /* text-decoration: none; */
+    text-decoration: none;
 }
 
 .links:hover {
     text-decoration: none;
+    color: rgb(17,71,61);
 }
 
 /* .navbar {
@@ -209,6 +221,10 @@
     justify-content: center;
 }
 
+#pics3 {
+    margin-top: 20px;
+}
+
 /* FOURTH ROW */
 
 #fourthRow {
@@ -224,7 +240,7 @@
     border: 2px dotted white;
     border-radius: 15px;
     padding: 15px 0;
-    margin: 10px 50px 10px 0;
+    margin: 10px 0;
     display: inline-block;
 }
 
@@ -237,7 +253,7 @@
 
 #contact {
     border: 1px solid white;
-    margin-left: 50px;
+    /* margin-left: 50px; */
 }
 
 /* REMOVE MARGINS AND PLACE HIDDEN DIV TO SEPARATE THE TWO

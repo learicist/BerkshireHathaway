@@ -7,7 +7,7 @@ $(document).ready(function () {
 
     // CLOSE UPS
     let images1 = [
-        "https://res.cloudinary.com/learicist/image/upload/v1669933413/BerkshireProject/solo.jpg",
+        "https://res.cloudinary.com/learicist/image/upload/v1670096335/BerkshireProject/solo2.jpg",
         "https://res.cloudinary.com/learicist/image/upload/v1669929696/BerkshireProject/three.jpg",
         "https://res.cloudinary.com/learicist/image/upload/v1669929701/BerkshireProject/smile.jpg",
         "https://res.cloudinary.com/learicist/image/upload/v1669929542/BerkshireProject/closeup.jpg",
@@ -26,8 +26,8 @@ $(document).ready(function () {
     // ACTION SHOTS
     let images3 = [
         "https://res.cloudinary.com/learicist/image/upload/v1669061764/BerkshireProject/DrumPic.jpg",
-        "https://res.cloudinary.com/learicist/image/upload/v1669933332/BerkshireProject/campfire.jpg",
-        "https://res.cloudinary.com/learicist/image/upload/v1669933386/BerkshireProject/arm.jpg",
+        "https://res.cloudinary.com/learicist/image/upload/v1670096335/BerkshireProject/campfire.jpg",
+        "https://res.cloudinary.com/learicist/image/upload/v1670096339/BerkshireProject/arm.jpg",
         "https://res.cloudinary.com/learicist/image/upload/v1669929548/BerkshireProject/dance2.jpg",
         "https://res.cloudinary.com/learicist/image/upload/v1669929633/BerkshireProject/dance.jpg",
         "https://res.cloudinary.com/learicist/image/upload/v1669929700/BerkshireProject/tiedye.jpg",
@@ -60,7 +60,7 @@ $(document).ready(function () {
             //console.log(curr);
         });
         //console.log(images1[curr]);
-    }, 12000);
+    }, 11000);
 
     //PIC2 ROTATION
     setInterval(function () {
@@ -84,7 +84,7 @@ $(document).ready(function () {
             //console.log(curr);
         });
         //console.log(images1[curr]);
-    }, 15000);
+    }, 13000);
 
     //PIC4 ROTATION
     // setInterval(function () {
