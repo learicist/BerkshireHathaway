@@ -29,16 +29,17 @@ $(document).ready(function () {
         "https://res.cloudinary.com/learicist/image/upload/v1669933332/BerkshireProject/campfire.jpg",
         "https://res.cloudinary.com/learicist/image/upload/v1669933386/BerkshireProject/arm.jpg",
         "https://res.cloudinary.com/learicist/image/upload/v1669929548/BerkshireProject/dance2.jpg",
-        "https://res.cloudinary.com/learicist/image/upload/v1669929633/BerkshireProject/dance.jpg"
-    ];
-
-    // MISC SHOTS
-    let images4 = [
+        "https://res.cloudinary.com/learicist/image/upload/v1669929633/BerkshireProject/dance.jpg",
         "https://res.cloudinary.com/learicist/image/upload/v1669929700/BerkshireProject/tiedye.jpg",
         "https://res.cloudinary.com/learicist/image/upload/v1669929575/BerkshireProject/food.jpg",
         "https://res.cloudinary.com/learicist/image/upload/v1669929649/BerkshireProject/guitar.jpg",
         "https://res.cloudinary.com/learicist/image/upload/v1669929686/BerkshireProject/hat2.jpg",
         "https://res.cloudinary.com/learicist/image/upload/v1669929715/BerkshireProject/shirts.jpg"
+    ];
+
+    // MISC SHOTS
+    let images4 = [
+        
     ];
 
     let index1 = 0,
@@ -47,6 +48,7 @@ $(document).ready(function () {
         index4 = 0;
 
     let maxIndex = 4;
+    let maxIndexBottom = 9;
 
     //PIC1 ROTATION
     setInterval(function () {
@@ -58,7 +60,7 @@ $(document).ready(function () {
             //console.log(curr);
         });
         //console.log(images1[curr]);
-    }, 9000);
+    }, 12000);
 
     //PIC2 ROTATION
     setInterval(function () {
@@ -70,12 +72,12 @@ $(document).ready(function () {
             //console.log(curr);
         });
         //console.log(images1[curr]);
-    }, 12000);
+    }, 9000);
 
     //PIC3 ROTATION
     setInterval(function () {
         let curr = images3[index3];
-        index3 = (maxIndex == index3) ? 0 : ++index3;
+        index3 = (maxIndexBottom == index3) ? 0 : ++index3;
         $('#pics3').fadeOut(450, function () {
             $(this).attr("src", curr);
             $(this).fadeIn(350);
@@ -85,14 +87,14 @@ $(document).ready(function () {
     }, 15000);
 
     //PIC4 ROTATION
-    setInterval(function () {
-        let curr = images4[index4];
-        index4 = (maxIndex == index4) ? 0 : ++index4;
-        $('#pics4').fadeOut(450, function () {
-            $(this).attr("src", curr);
-            $(this).fadeIn(350);
-            //console.log(curr);
-        });
-        //console.log(images1[curr]);
-    }, 11000);
+    // setInterval(function () {
+    //     let curr = images4[index4];
+    //     index4 = (maxIndex == index4) ? 0 : ++index4;
+    //     $('#pics4').fadeOut(450, function () {
+    //         $(this).attr("src", curr);
+    //         $(this).fadeIn(350);
+    //         //console.log(curr);
+    //     });
+    //     //console.log(images1[curr]);
+    // }, 11000);
 });

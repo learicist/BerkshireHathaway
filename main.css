@@ -59,8 +59,8 @@
 
 #navbarNavAltMarkup {
     border: 1px solid white;
-    display: inline;
-    justify-content: right;
+    /* display: inline; */
+    justify-content: right; 
 }
 
 /* .list {
@@ -91,12 +91,12 @@
     text-decoration: none;
 }
 
-.navbar {
+/* .navbar {
     background-color: rgb(17,71,61);
-    /* margin-bottom: 150px; */
+    margin-bottom: 150px;
     position: fixed;
     top: 0;
-}
+} */
 
 #navMain {
     background-color: rgb(17,71,61);
@@ -136,13 +136,14 @@
 
 #mainBody {
     /* margin-top: 120px; 
-    padding-top: 80px; */
-    background: url("https://res.cloudinary.com/learicist/image/upload/v1669929665/BerkshireProject/group5.jpg") no-repeat center center fixed;
+    padding-top: 80px; 
+    background: url("https://res.cloudinary.com/learicist/image/upload/v1669929665/BerkshireProject/group5.jpg") no-repeat center center fixed; 
     min-height: 100%;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;    
+    -o-background-size: cover; */
+    background-color: rgb(216,181,154)
 }
 
 #topRow {
@@ -162,9 +163,9 @@
     justify-content: center;
     text-align: center;
     margin: 60px 0;
-    background-color: rgb(235,164,3);
     border-radius: 15px;
     /* padding: 20px 0;
+    background-color: rgb(235,164,3);
     margin-top: 200px;
     border: 1px solid black;
     margin-bottom: 150px; */
@@ -224,6 +225,7 @@
     border-radius: 15px;
     padding: 15px 0;
     margin: 10px 50px 10px 0;
+    display: inline-block;
 }
 
 .socialLinks, .socialLinks:hover{
@@ -238,9 +240,32 @@
     margin-left: 50px;
 }
 
+/* REMOVE MARGINS AND PLACE HIDDEN DIV TO SEPARATE THE TWO
+FIX HEIGHT OF SOCIAL DIV */
+
 #contactForm {
     border: 1px solid white;
     list-style: none;
+}
+
+.formInput {
+    margin: 10px 0;
+    font-family: "Roboto-Slab", sans-serif;
+    background-color: rgb(17,71,61);
+    color: rgb(235,164,3);
+    border-radius: 15px;
+    padding: 5px 10px;
+    width: 70%;
+}
+
+.formInput::placeholder {
+    color: rgb(235,164,3);
+    text-align: center;
+}
+
+#message {
+    height: 100px;
+    width: 80%;
 }
 
 /* FOOTER */
@@ -262,4 +287,5 @@
 #copyTag {
     color: white;
     /* border: 1px solid white; */
+    font-family: "Roboto-Slab", sans-serif;
 }
