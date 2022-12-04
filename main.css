@@ -57,59 +57,6 @@
     float: right;
 } */
 
-#navbarNavAltMarkup {
-    border: 1px solid white;
-    /* display: inline; */
-    justify-content: right; 
-}
-
-/* .list {
-    display: inline;
-    justify-content: center;
-    margin: 10px 0;
-    padding: 5px;
-} */
-
-#hamButton {
-    border-color: rgb(216,181,154);
-    border-width: 0.15em;
-    color: rgb(17,71,61);
-}
-
-#spanIcon {
-    background-image: url(
-        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(216,181,154)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-#hamburgerList {
-    border: 1px solid white;
-    margin-right: 50px;
-}
-
-.links {
-    background-color: rgb(216,181,154);
-    color: rgb(17,71,61);
-    border: 2px dashed white;
-    border-radius: 5px;
-    margin: 0 10px;
-    font-weight: 600;
-    font-size: 1.4em;
-    font-family: "Roboto-Slab", sans-serif;
-    text-decoration: none;
-}
-
-.links:hover {
-    text-decoration: none;
-    color: rgb(17,71,61);
-}
-
-/* .navbar {
-    background-color: rgb(17,71,61);
-    margin-bottom: 150px;
-    position: fixed;
-    top: 0;
-} */
-
 #navMain {
     background-color: rgb(17,71,61);
 }
@@ -125,9 +72,87 @@
     border: 1px solid blue; */
     border-radius: 5px;
     text-decoration: none;
-    width: 80px;
+    width: 95px;
     box-shadow: 4px 5px rgb(0, 0, 0, 0.2);
 }
+
+/* .list {
+    display: inline;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 5px;
+} */
+
+#navbarNavAltMarkup {
+    /* border: 1px solid white;
+    display: inline; */
+    justify-content: right; 
+}
+
+#hamButton {
+    border-color: rgb(216,181,154);
+    border-width: 0.15em;
+    color: rgb(17,71,61);
+}
+
+#spanIcon {
+    background-image: url(
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(216,181,154)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+#hamburgerList {
+    /* border: 1px solid white;
+    border-radius: 15px;
+    padding: 5px; */
+    margin-right: 50px;
+    float: right;
+}
+
+@media screen and (max-width: 769px) {
+    #navMain {
+        background-color: rgb(17,71,61, 0.45);
+    }
+
+    #hamburgerList {
+        margin-right: 10px;
+        background-color: rgb(17,71,61);
+        border: 1px solid rgb(17,71,61);
+        border-radius: 15px;
+        padding: 5px;
+    }
+
+    .links {
+        
+    }
+}
+
+.links {
+    background-color: rgb(216,181,154);
+    color: rgb(17,71,61);
+    border: 2px dashed white;
+    border-radius: 5px;
+    margin: 5px 10px;
+    font-weight: 600;
+    font-size: 1.3em;
+    font-family: "Roboto-Slab", sans-serif;
+    text-decoration: none;
+    max-width: 100px;
+    text-align: center;
+    padding: 0px 4px;
+}
+
+.links:hover {
+    text-decoration: none;
+    color: rgb(17,71,61);
+}
+
+/* .navbar {
+    background-color: rgb(17,71,61);
+    margin-bottom: 150px;
+    position: fixed;
+    top: 0;
+} */
+
 
 /* .menuBars {
     border: 2px solid white;
@@ -137,12 +162,6 @@
     margin: 6px 0;
     border-radius: 5px;
 } */
-
-#hamburger {
-    float: right;
-    border: 1px solid white;
-    /* display: inline; */
-}
 
 /* BODY BEGINS */
 
@@ -184,7 +203,7 @@
 }
 
 .pics {
-    width: 70%;
+    width: 65%;
     border-radius: 15px;
     box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.4);
     /* border: 1px solid black; */
@@ -209,6 +228,7 @@
     font-family: "Roboto-Slab", sans-serif;
     font-weight: 500;
     font-size: 1.1em;
+    padding: 25px 20px;
 }
 
 /* THIRD ROW */
@@ -222,7 +242,7 @@
 }
 
 #pics3 {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 /* FOURTH ROW */
@@ -237,7 +257,7 @@
 }
 
 #socialDiv {
-    border: 2px dotted white;
+    border: 4px dotted rgb(17,71,61, 0.6);
     border-radius: 15px;
     padding: 15px 0;
     margin: 10px 0;
@@ -252,7 +272,10 @@
 }
 
 #contact {
-    border: 1px solid white;
+    border-radius: 15px;
+    border: 4px dotted rgb(17,71,61, 0.6);
+    padding: 15px 0;
+    margin: 10px 0;
     /* margin-left: 50px; */
 }
 
@@ -260,7 +283,8 @@
 FIX HEIGHT OF SOCIAL DIV */
 
 #contactForm {
-    border: 1px solid white;
+    /* border: 1px solid white;
+    border-radius: 15px; */
     list-style: none;
 }
 
@@ -282,6 +306,16 @@ FIX HEIGHT OF SOCIAL DIV */
 #message {
     height: 100px;
     width: 80%;
+}
+
+#submit {
+    margin: 10px 0;
+    font-family: "Roboto-Slab", sans-serif;
+    background-color: rgb(17,71,61);
+    color: rgb(235,164,3);
+    border-radius: 15px;
+    padding: 5px 10px;
+    width: 40%;
 }
 
 /* FOOTER */
