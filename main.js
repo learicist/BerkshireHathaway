@@ -97,4 +97,11 @@ $(document).ready(function () {
     //     });
     //     //console.log(images1[curr]);
     // }, 11000);
+
+    $("#mainBody").on('click', function () {
+        if ( $('#hamButton').attr('aria-expanded') === 'true' ) {
+            console.log('test');
+            $('#hamButton').trigger('click');
+        }
+    });
 });

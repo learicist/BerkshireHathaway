@@ -174,7 +174,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover; */
-    background-color: rgb(216,181,154)
+    background-color: rgb(216,181,154);
 }
 
 #topRow {
@@ -294,6 +294,7 @@ FIX HEIGHT OF SOCIAL DIV */
     background-color: rgb(17,71,61);
     color: rgb(235,164,3);
     border-radius: 15px;
+    border: 2px inset rgb(17,71,61);
     padding: 5px 10px;
     width: 70%;
 }
@@ -301,6 +302,7 @@ FIX HEIGHT OF SOCIAL DIV */
 .formInput::placeholder {
     color: rgb(235,164,3);
     text-align: center;
+    font-family: "Roboto-Slab", sans-serif;
 }
 
 #message {
@@ -314,6 +316,7 @@ FIX HEIGHT OF SOCIAL DIV */
     background-color: rgb(17,71,61);
     color: rgb(235,164,3);
     border-radius: 15px;
+    border: 2px inset rgb(17,71,61);
     padding: 5px 10px;
     width: 40%;
 }
