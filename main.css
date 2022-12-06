@@ -243,7 +243,7 @@
 
 #pics3 {
     margin-top: 50px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 /* FOURTH ROW */
@@ -258,15 +258,17 @@
 }
 
 #socialDivParent {
-    display: flex;
+    display: inline;
+    justify-content: center;
     align-items: center;
+    /* border: 1px solid white; */
 }
 
-#socialDiv {
+.socialDiv {
     border: 4px dotted rgb(17,71,61, 0.6);
     border-radius: 15px;
     padding: 15px 20px;
-    margin: auto;
+    margin: 15px 0;
     display: inline-block;
 }
 
@@ -306,7 +308,7 @@ FIX HEIGHT OF SOCIAL DIV */
 }
 
 .formInput::placeholder {
-    color: rgb(235,164,3);
+    color: rgb(235,164,3, 0.7);
     text-align: center;
     font-family: "Roboto-Slab", sans-serif;
 }
