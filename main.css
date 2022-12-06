@@ -58,7 +58,8 @@
 } */
 
 #navMain {
-    background-color: rgb(17,71,61);
+    background-color: rgb(17,71,61, 0.45);
+    height: 11%;
 }
 
 .navbar-brand {
@@ -70,6 +71,7 @@
     /* color: green;
     background-color: rgb(235,164,3);
     border: 1px solid blue; */
+    margin-left: 5px;
     border-radius: 5px;
     text-decoration: none;
     width: 95px;
@@ -104,14 +106,14 @@
     /* border: 1px solid white;
     border-radius: 15px;
     padding: 5px; */
-    margin-right: 50px;
+    margin-right: 30px;
     float: right;
 }
 
 @media screen and (max-width: 769px) {
-    #navMain {
+    /* #navMain {
         background-color: rgb(17,71,61, 0.45);
-    }
+    } */
 
     #hamburgerList {
         margin-right: 10px;
@@ -139,6 +141,7 @@
     max-width: 100px;
     text-align: center;
     padding: 0px 4px;
+    box-shadow: 4px 5px rgb(0, 0, 0, 0.2);
 }
 
 .links:hover {
@@ -153,15 +156,6 @@
     top: 0;
 } */
 
-
-/* .menuBars {
-    border: 2px solid white;
-    width: 35px;
-    height: 4px;
-    background-color: white;
-    margin: 6px 0;
-    border-radius: 5px;
-} */
 
 /* BODY BEGINS */
 
@@ -267,9 +261,10 @@
 .socialDiv {
     border: 4px dotted rgb(17,71,61, 0.6);
     border-radius: 15px;
-    padding: 15px 20px;
-    margin: 15px 0;
+    padding: 15px 25px;
+    margin: 15px 0 5px 0;
     display: inline-block;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
 }
 
 .socialLinks, .socialLinks:hover{
@@ -285,26 +280,29 @@
     padding: 15px 0;
     margin: 10px 0;
     /* margin-left: 50px; */
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
 }
 
 /* REMOVE MARGINS AND PLACE HIDDEN DIV TO SEPARATE THE TWO
 FIX HEIGHT OF SOCIAL DIV */
 
 #contactForm {
-    /* border: 1px solid white;
-    border-radius: 15px; */
+    /* border: 1px solid white; */
+    border-radius: 15px;
     list-style: none;
+    padding-right: 30px;
 }
 
 .formInput {
-    margin: 10px 0;
+    margin: 15px 0 5px 0;
     font-family: "Roboto-Slab", sans-serif;
     background-color: rgb(17,71,61);
     color: rgb(235,164,3);
     border-radius: 15px;
-    border: 2px inset rgb(17,71,61);
-    padding: 5px 10px;
-    width: 70%;
+    border: 2px outset rgb(17,71,61);
+    padding: 5px 0px;
+    width: 65%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
 }
 
 .formInput::placeholder {
@@ -315,18 +313,19 @@ FIX HEIGHT OF SOCIAL DIV */
 
 #message {
     height: 100px;
-    width: 80%;
+    width: 85%;
 }
 
 #submit {
-    margin: 10px 0;
+    margin: 15px 0 0 0;
     font-family: "Roboto-Slab", sans-serif;
     background-color: rgb(17,71,61);
     color: rgb(235,164,3);
     border-radius: 15px;
-    border: 2px inset rgb(17,71,61);
+    border: 2px outset rgb(17,71,61);
     padding: 5px 10px;
-    width: 40%;
+    width: 35%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
 }
 
 /* FOOTER */
@@ -346,7 +345,7 @@ FIX HEIGHT OF SOCIAL DIV */
 }
 
 #copyTag {
-    color: white;
+    color: rgb(256, 256, 256, 0.9);
     /* border: 1px solid white; */
     font-family: "Roboto-Slab", sans-serif;
 }
