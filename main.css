@@ -243,6 +243,7 @@
 
 #pics3 {
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 /* FOURTH ROW */
@@ -256,11 +257,16 @@
     color: rgb(17,71,61);
 }
 
+#socialDivParent {
+    display: flex;
+    align-items: center;
+}
+
 #socialDiv {
     border: 4px dotted rgb(17,71,61, 0.6);
     border-radius: 15px;
-    padding: 15px 0;
-    margin: 10px 0;
+    padding: 15px 20px;
+    margin: auto;
     display: inline-block;
 }
 
