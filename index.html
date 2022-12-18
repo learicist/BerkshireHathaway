@@ -2,7 +2,10 @@
 <!--Original site for The Berkshire Hathaway Project-->
 
 <!-- Link to photos: 
-	https://photos.google.com/share/AF1QipPRHk12fbwrywvE0AyFaWDX_b0qJzkZwW4L1ay_4OICEiSLhdQ5T9f9rQs-CSQcZQ?obfsgid=107569901087643252298&email=learicist@gmail.com&pli=1&key=cnh5Vzg4aGxrUDM4NVNmdHZwSV9qYUhPTER4TVB3 -->
+	https://photos.google.com/share/AF1QipPRHk12fbwrywvE0AyFaWDX_b0qJzkZwW4L1ay_4OICEiSLhdQ5T9f9rQs-CSQcZQ?obfsgid=107569901087643252298&email=learicist@gmail.com&pli=1&key=cnh5Vzg4aGxrUDM4NVNmdHZwSV9qYUhPTER4TVB3 
+	https://fundly.com/the-berkshire-project 
+	https://github.com/fundly/fundly-icon-font 
+	https://fontawesome.com/v5/icons/donate?style=light&s=solid&f=classic -->
 
 <html>
 	<head>
@@ -40,29 +43,33 @@
 
 	<body>
 		<nav class="navbar navbar-expand-md fixed-top" id="navMain">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="#">
-					<img 
-						id="titleLogo"
-						alt="brandLogo"
-						src="https://res.cloudinary.com/learicist/image/upload/v1669136122/BerkshireProject/logo1.png"/>
-				</a>
-				<button 
-					class="navbar-toggler" 
-					id="hamButton"
-					type="button" 
-					data-bs-toggle="collapse" 
-					data-bs-target="#navbarNavAltMarkup" 
-					aria-controls="navbarNavAltMarkup" 
-					aria-expanded="false" 
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon" id="spanIcon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-					<div class="navbar-nav" id="hamburgerList">
-						<a style="text-decoration: none;" class="active links" aria-current="page" href="#">Home</a>
-						<a style="text-decoration: none;" class="active links" href="#secondRow">Mission</a>
-						<a style="text-decoration: none;" class="active links" href="#contact">Contact</a>
+			<div class="container-fluid" id="navContainer">
+				<div class="row" id="navRow">
+					<div class="col-sm-12">
+						<a class="navbar-brand" href="#">
+							<img 
+								id="titleLogo"
+								alt="brandLogo"
+								src="https://res.cloudinary.com/learicist/image/upload/v1669136122/BerkshireProject/logo1.png"/>
+						</a>
+						<button 
+							class="navbar-toggler" 
+							id="hamButton"
+							type="button" 
+							data-bs-toggle="collapse" 
+							data-bs-target="#navbarNavAltMarkup" 
+							aria-controls="navbarNavAltMarkup" 
+							aria-expanded="false" 
+							aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon" id="spanIcon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+							<div class="navbar-nav" id="hamburgerList">
+								<a style="text-decoration: none;" class="active links" aria-current="page" href="#">Home</a>
+								<a style="text-decoration: none;" class="active links" href="#secondRow">Mission</a>
+								<a style="text-decoration: none;" class="active links" href="#contact">Contact</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -95,12 +102,14 @@
 
 			<div class="row" id="secondRow">
 				<div class="col-sm-6" id="mission">
-					<h2 style="text-align: center; margin-top: 15px;" id="missionTitle">Lorem Ipsum</h2>
+					<h2 style="text-align: center; margin-top: 15px;" id="missionTitle">Mission Statement</h2>
 					<br>
 					<p id="missionStatement">
-						"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-						"There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam metus nibh, condimentum et fringilla eu, scelerisque vitae dolor. Duis gravida dolor in ligula feugiat, sed ultrices velit interdum. Curabitur cursus viverra tristique. Aliquam odio libero, volutpat eget pharetra quis, vehicula et velit. Ut urna nunc, semper ac sagittis ut, tristique eget lectus. Ut sagittis consequat ligula. In vestibulum sit amet mauris quis accumsan. Integer sed porta tortor. Donec auctor odio in volutpat porttitor. Fusce pharetra feugiat neque id consequat. Suspendisse nibh diam, pharetra eget neque a, bibendum tristique lacus. Aliquam accumsan odio in hendrerit hendrerit.
+						Living with a disability can create barriers to building social connections. Help us break down these barries by joining adult individuals of all abilities to spend a life-changing week together in the Berkshires.
+						<br><br>
+						<strong><em>The Berkshire Project </em></strong> is an inclusive arts and music based retreat that strives to develop connections that will last for years to come. 
+						<br><br>
+						We believe in a "nobody pays, nobody gets paid" motto. <strong>We are entirely funded by private donations, allowing us to offer the program to participants free of charge with all lodging, meals, and programming included.</strong>
 					</p>
 
 				</div>
@@ -153,10 +162,13 @@
 					</div>
 					<br>
 					<div class="socialDiv">
-						<img 
+						<h4>Donate Here</h4>
+						<a id="donate" target="_blank" href="https://fundly.com/the-berkshire-project">
+							<img 
 							id="bottomLogo"
-							style="width:45%;"
+							style="width:35%;"
 							src="https://res.cloudinary.com/learicist/image/upload/v1669136122/BerkshireProject/logo3.png" />
+						</a>
 					</div>
 				</div>
 
