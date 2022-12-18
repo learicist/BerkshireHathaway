@@ -36,7 +36,7 @@
 } */
 
 #navMain {
-    background-color: rgb(17,71,61, 0.5);
+    background-color: rgb(17,71,61, 0.65);
     align-items: center;
 }
 
@@ -62,9 +62,9 @@
     border: 1px solid blue; 
     margin-left: 5px; */
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin: 6px 0 10px 0;
     text-decoration: none;
-    width: 105px;
+    width: 150px;
     box-shadow: 4px 5px rgb(0, 0, 0, 0.2);
 }
 
@@ -113,7 +113,7 @@
     #hamButton {
         justify-content: right;
         float: right;
-        margin-top: 15px;
+        margin-top: 25px;
     }
 
     #hamburgerList {
@@ -127,6 +127,10 @@
 
     .links {
         
+    }
+
+    #topRow {
+        padding-top: 120px;
     }
 }
 
@@ -177,7 +181,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 170px;
+    padding-top: 220px;
     /* background-color: rgb(216,181,154);
     background-color: rgb(235,164,3);
     border: 1px solid black; */
@@ -213,6 +217,7 @@
     text-align: justify;
     display: flex;
     justify-content: center;
+    
 }
 
 #mission {
@@ -225,6 +230,7 @@
     font-weight: 500;
     font-size: 1.1em;
     padding: 25px 20px;
+    scroll-margin-top: 180px;
 }
 
 /* THIRD ROW */
@@ -267,6 +273,7 @@
     margin: 15px 0 5px 0;
     display: inline-block;
     box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
+    scroll-padding-top: 80px;
 }
 
 .socialLinks, .socialLinks:hover{
@@ -308,7 +315,7 @@ FIX HEIGHT OF SOCIAL DIV */
 }
 
 .formInput::placeholder {
-    color: rgb(235,164,3, 0.7);
+    color: rgb(235,164,3, 0.8);
     text-align: center;
     font-family: "Roboto-Slab", sans-serif;
 }
