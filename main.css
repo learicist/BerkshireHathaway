@@ -12,6 +12,8 @@
 /* width */
 ::-webkit-scrollbar {
 	width: 10px;
+    scrollbar-width: 10px;
+    scrollbar-color: rgb(17,71,61), rgb(235,164,3);
 	height: 20px;
 }
 
@@ -312,6 +314,7 @@ FIX HEIGHT OF SOCIAL DIV */
     padding: 5px 0px;
     width: 65%;
     box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
+    text-align: center;
 }
 
 .formInput::placeholder {
@@ -325,7 +328,7 @@ FIX HEIGHT OF SOCIAL DIV */
     width: 85%;
 }
 
-#submit {
+#submitForm {
     margin: 15px 0 0 0;
     font-family: "Roboto-Slab", sans-serif;
     background-color: rgb(17,71,61);
@@ -333,7 +336,7 @@ FIX HEIGHT OF SOCIAL DIV */
     border-radius: 15px;
     border: 2px outset rgb(17,71,61);
     padding: 5px 10px;
-    width: 35%;
+    width: 45%;
     box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
 }
 

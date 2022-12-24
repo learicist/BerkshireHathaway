@@ -104,4 +104,15 @@ $(document).ready(function () {
             $('#hamButton').trigger('click');
         }
     });
+
+    $('#submitForm').on('click', function () {
+        $('#form')[0].submit();
+        $('#form')[0].reset();
+        //console.log('reset test');
+        return false;
+    });
+
+    let test = "https://photos.google.com/share/AF1QipOTAAaS3tLRk0zrpdq9TCtY9ZUd8pPonkxp5RwBfIoZtsUxC5uQygwtZ0UqeDlnIg?obfsgid=107569901087643252298&email=learicist@gmail.com&key=VWZYMFdQTnF0Uk5xOFBMWk9JZldZUktHMDR5WFNn";
+
+    console.log();
 });
