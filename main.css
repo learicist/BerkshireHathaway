@@ -5,34 +5,36 @@
 ::-webkit-scrollbar {
 	width: 10px;
     scrollbar-width: 10px;
-    scrollbar-color: rgb(17,71,61), rgb(235,164,3);
+    scrollbar-color: rgb(255,255,255), rgb(3, 152, 158);
 	height: 20px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-	background: rgb(235,164,3); 
+	background: rgb(3, 152, 158); 
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: rgb(17,71,61); 
+	background: rgb(255,255,255); 
 	border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: rgb(17,71,61);
+	background: rgb(3, 152, 158);
 }
 
 #navMain {
-    background-color: rgb(17,71,61, 0.65);
+    background-color: rgb(3, 152, 158, 0.65);
     align-items: center;
 }
 
 #navContainer {
     display: flex;
     justify-content: center;
+    backdrop-filter: blur(8px) contrast(100%);
+    -webkit-backdrop-filter: blur(8px) contrast(100%);
 }
 
 #navRow {
@@ -49,14 +51,14 @@
 }
 
 #hamButton {
-    border-color: rgb(216,181,154);
+    border-color: rgb(255,255,255);
     border-width: 0.15em;
-    color: rgb(17,71,61);
+    color: rgb(3, 152, 158);
 }
 
 #spanIcon {
     background-image: url(
-        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(216,181,154)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 #hamburgerList {
@@ -69,7 +71,7 @@
 
 @media screen and (max-width: 769px) {
     #navMain {
-        /* background-color: rgb(17,71,61, 0.45); */
+        /* background-color: rgb(3, 152, 158, 0.45); */
         /* align-items: stretch;
         border: 1px solid white; */
     }
@@ -98,8 +100,8 @@
 
     #hamburgerList {
         margin-right: 10px;
-        background-color: rgb(17,71,61);
-        border: 1px solid rgb(17,71,61);
+        background-color: rgb(3, 152, 158);
+        border: 1px solid rgb(3, 152, 158);
         border-radius: 15px;
         padding: 5px;
         float: right;
@@ -115,8 +117,8 @@
 }
 
 .links {
-    background-color: rgb(216,181,154);
-    color: rgb(17,71,61);
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,0);
     border: 2px solid white;
     border-radius: 5px;
     margin: 5px 10px;
@@ -132,11 +134,11 @@
 
 .links:hover {
     text-decoration: none;
-    color: rgb(17,71,61);
+    color: rgb(0,0,0);
 }
 
 /* .navbar {
-    background-color: rgb(17,71,61);
+    background-color: rgb(3, 152, 158);
     margin-bottom: 150px;
     position: fixed;
     top: 0;
@@ -154,7 +156,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover; */
-    background-color: rgb(216,181,154);
+    background-color: rgb(255,255,255);
 }
 
 #topRow {
@@ -162,8 +164,8 @@
     justify-content: center;
     text-align: center;
     padding-top: 220px;
-    /* background-color: rgb(216,181,154);
-    background-color: rgb(235,164,3);
+    /* background-color: rgb(255,255,255);
+    background-color: rgb(255,255,255);
     border: 1px solid black; */
 }
 
@@ -176,7 +178,7 @@
     margin: 60px 0;
     border-radius: 15px;
     /* padding: 20px 0;
-    background-color: rgb(235,164,3);
+    background-color: rgb(255,255,255);
     margin-top: 200px;
     border: 1px solid black;
     margin-bottom: 150px; */
@@ -184,7 +186,8 @@
 
 .pics {
     width: 65%;
-    max-height: 710px;
+    max-height: 550px;
+    margin: auto 0;
     border-radius: 15px;
     box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.4);
     /* border: 1px solid black; */
@@ -193,8 +196,8 @@
 /* SECOND ROW */
 
 #secondRow {
-    /* background-color: rgb(235,164,3); 
-    background-color: rgb(216,181,154); */
+    /* background-color: rgb(255,255,255); 
+    background-color: rgb(255,255,255); */
     text-align: justify;
     display: flex;
     justify-content: center;
@@ -203,8 +206,8 @@
 
 #mission {
     margin: 2% 0;
-    color: rgb(17,71,61);
-    background-color: rgb(235,164,3);
+    color: rgb(0,0,0);
+    background-color: rgb(3, 152, 158);
     border-radius: 15px;
     box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.2);
     font-family: "Roboto-Slab", sans-serif;
@@ -217,8 +220,8 @@
 /* THIRD ROW */
 
 #thirdRow {
-    /* background-color: rgb(235,164,3); 
-    background-color: rgb(216,181,154); */
+    /* background-color: rgb(255,255,255); 
+    background-color: rgb(255,255,255); */
     text-align: center;
     display: flex;
     justify-content: center;
@@ -232,12 +235,11 @@
 /* FOURTH ROW */
 
 #fourthRow {
-    /* background-color: rgb(235,164,3); */
-    background-color: rgb(235,164,3);
+    background-color: rgb(3, 152, 158);
     text-align: center;
     display: flex;
     justify-content: center;
-    color: rgb(17,71,61);
+    color: rgb(0, 0, 0);
 }
 
 #socialDivParent {
@@ -248,7 +250,8 @@
 }
 
 .socialDiv {
-    border: 4px solid rgb(17,71,61, 0.8);
+    border: 4px solid rgb(3, 152, 158, 0.8);
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
     padding: 15px 25px;
     margin: 15px 0 5px 0;
@@ -259,14 +262,19 @@
 
 .socialLinks, .socialLinks:hover{
     text-decoration: none;
-    color: rgb(17,71,61);
+    color: rgb(3, 152, 158);
     margin: 0 25px;
     /* border: 1px solid white; */
 }
 
+#bottomLogo {
+    color: rgb(3, 152, 158);
+}
+
 #contact {
     border-radius: 15px;
-    border: 4px solid rgb(17,71,61, 0.8);
+    border: 4px solid rgb(3, 152, 158, 0.8);
+    background-color: rgb(255, 255, 255);
     padding: 15px 0;
     margin: 10px 0;
     /* margin-left: 50px; */
@@ -286,10 +294,10 @@ FIX HEIGHT OF SOCIAL DIV */
 .formInput {
     margin: 15px 0 5px 0;
     font-family: "Roboto-Slab", sans-serif;
-    background-color: rgb(17,71,61);
-    color: rgb(235,164,3);
+    background-color: rgb(3, 152, 158, 0.6);
+    color: rgb(255,255,255);
     border-radius: 15px;
-    border: 2px outset rgb(17,71,61);
+    border: 2px outset rgb(3, 152, 158);
     padding: 5px 0px;
     width: 65%;
     box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
@@ -297,7 +305,7 @@ FIX HEIGHT OF SOCIAL DIV */
 }
 
 .formInput::placeholder {
-    color: rgb(235,164,3, 0.8);
+    color: rgb(0, 0, 0, 0.95);
     text-align: center;
     font-family: "Roboto-Slab", sans-serif;
 }
@@ -310,10 +318,10 @@ FIX HEIGHT OF SOCIAL DIV */
 #submitForm {
     margin: 15px 0 0 0;
     font-family: "Roboto-Slab", sans-serif;
-    background-color: rgb(17,71,61);
-    color: rgb(235,164,3);
+    background-color: rgb(3, 152, 158, 0.6);
+    color: rgb(0, 0, 0);
     border-radius: 15px;
-    border: 2px outset rgb(17,71,61);
+    border: 2px outset rgb(3, 152, 158);
     padding: 5px 10px;
     width: 45%;
     box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.2);
@@ -322,7 +330,7 @@ FIX HEIGHT OF SOCIAL DIV */
 /* FOOTER */
 
 #foot {
-    background-color: rgb(17,71,61);
+    background-color: rgb(255, 255, 255);
     /* display: flex;
     justify-content: center; */
     text-align: center;
@@ -336,7 +344,7 @@ FIX HEIGHT OF SOCIAL DIV */
 }
 
 #copyTag {
-    color: rgb(256, 256, 256, 0.9);
+    color: rgb(0,0,0);
     /* border: 1px solid white; */
     font-family: "Roboto-Slab", sans-serif;
 }
