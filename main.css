@@ -16,13 +16,13 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-	background: rgb(255,255,255); 
+	background: rgb(255, 255, 255, 0.85); 
 	border-radius: 5px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-	background: rgb(3, 152, 158);
+	background: rgb(255, 255, 255);
 }
 
 #navMain {
@@ -34,8 +34,7 @@
 
 #navContainer {
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
 }
 
 #navRow {
@@ -135,7 +134,8 @@
 
 .links:hover {
     text-decoration: none;
-    color: rgb(0,0,0);
+    background-color: rgb(0,0,0);
+    color: rgb(255, 255, 255);
 }
 
 /* .navbar {
@@ -296,7 +296,7 @@ FIX HEIGHT OF SOCIAL DIV */
     margin: 15px 0 5px 0;
     font-family: "Roboto-Slab", sans-serif;
     background-color: rgb(3, 152, 158, 0.6);
-    color: rgb(255,255,255);
+    color: rgb(0, 0, 0);
     border-radius: 15px;
     border: 2px outset rgb(3, 152, 158);
     padding: 5px 0px;
